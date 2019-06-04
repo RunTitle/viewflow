@@ -27,6 +27,7 @@ http://viewflow.io.
 
 - Viewflow 1.1.x compatible with Django 1.8/1.9/1.10/1.11 (supported till Django 1.8 lifetime/April 2018)
 - Viewflow 1.2.x compatible with Django 1.11/2.0 (supported till Django 1.11 lifetime/April 2020)
+- Viewflow 1.3.x/1.4.x/1.5.x compatible with Django 1.11/2.0/2.1/2.2 (supported till Django 1.11 lifetime/April 2020)
 
 
 Introduction
@@ -123,10 +124,7 @@ Please see `FAQ <https://github.com/kmmbvnr/django-viewflow/wiki/Pro-FAQ>`_ for 
 Latest changelog
 ================
 
-1.2.2 2018-02-26
+1.5.3 2019-04-23
 ----------------
 
-* Fix admin actions menu
-* Fix this-referennce usage in If-node condition.
-* [PRO] Expose Celery Retry task action
-* [PRO] Fix obsolete node url resolve
+* Resolve this-referencies for Split and Switch nodes conditions

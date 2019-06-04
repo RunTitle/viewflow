@@ -2,6 +2,48 @@
 Changelog
 =========
 
+1.5.3 2019-04-23
+----------------
+
+* Resolve this-referencies for Split and Switch nodes conditions
+
+
+1.5.1 2019-02-25
+----------------
+
+* Task description field became rendered as django template with {{ process }} and {{ task }} variable avaiable
+
+
+1.5.0 2019-02-13
+----------------
+
+* Added portuguese translation
+
+
+1.4.0 2018-10-25
+----------------
+
+* WebComponent based frontend (compatibility with django-material 1.4.x)
+* Django 2.1 support
+* [PRO] Flow chart internationalization
+
+
+1.3.0 2018-08-23
+----------------
+
+* Django 2.1 support
+* Support task permission checks on user model subclasses
+* [PRO] django-rest-swagger 2.2.0 support
+
+
+1.2.5 2018-05-07
+----------------
+
+* Fix process desccription translation on django 2.0
+* Fix process dumpdata on django 2.0
+* [PRO] Frontend - fix page scroll on graph model open
+
+
 1.2.2 2018-02-26
 ----------------
 
